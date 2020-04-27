@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Drum Kit
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <audio id="myAudio1">
+        <source src="./sound/crash.mp3">
+    </audio>
+    <audio id="myAudio2">
+        <source src="./sound/tom-3.mp3">
+    </audio>
+    <audio id="myAudio3">
+        <source src="./sound/tom-4.mp3">
+    </audio>
+    <audio id="myAudio4">
+        <source src="./sound/kick-bass.mp3">
+    </audio>
+    <audio id="myAudio5">
+        <source src="./sound/snare.mp3">
+    </audio>
+    <audio id="myAudio6">
+        <source src="./sound/tom-1.mp3">
+    </audio>
+    <audio id="myAudio7">
+        <source src="./sound/tom-2.mp3">
+    </audio>
+    <audio id="song"></audio>
+    <h1>🥁 DRUM KIT 🥁 </h1>
+
+    <button id="test1" type="button" onclick="playAudio('crash')"></button>
+    <button id="test2" type="button" onclick="playAudio('tom-3')"></button>
+    <button id="test3" type="button" onclick="playAudio('tom-4')"></button>
+    <button id="test4" type="button" onclick="playAudio('kick-bass')"></button>
+    <button id="test5" type="button" onclick="playAudio('snare')"></button>
+    <button id="test6" type="button" onclick="playAudio('tom-1')"></button>
+    <button id="test7" type="button" onclick="playAudio('tom-2')"></button>
+    <button id="test8" type="button" onclick="clearme()">Clear Tune</button>
+    <button id="test9" type="button" onclick="play_all()">Play Tune</button>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

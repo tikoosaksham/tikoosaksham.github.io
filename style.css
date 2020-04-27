@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    font-size: 5rem;
+    color: coral;
+    text-shadow: 5px 2px burlywood;
+}
+
+footer {
+    color: darkcyan;
+    font-family: monospace;
+    font-size: large;
+    vertical-align: 0px;
+    ;
+}
+
+button {
+    width: 150px;
+    height: 150px;
+    font-size: 3rem;
+    color: pink;
+    border-color: coral;
+    border-style: solid;
+    background-color: whitesmoke;
+    font-family: Arvo, cursive;
+    text-decoration-color: coral;
+    text-shadow: 3px 0 gainsboro;
+    border-radius: 25px;
+    text-align: center;
+}
+
+img {
+    vertical-align: middle;
+    padding: 5px;
+}
+
+#test1 {
+    height: 405px;
+    width: 200px;
+    vertical-align: middle;
+    background-image: url("./images/crash.png")
+}
+
+#test2 {
+    height: 205px;
+    width: 152px;
+    vertical-align: middle;
+    background-image: url("./images/tom3.png")
+}
+
+#test3 {
+    height: 205px;
+    width: 152px;
+    vertical-align: middle;
+    background-image: url("./images/tom4.png")
+}
+
+#test4 {
+    vertical-align: middle;
+    width: 267px;
+    height: 270px;
+    border-radius: 50%;
+    background-image: url("./images/kick.png");
+}
+
+#test5 {
+    height: 180px;
+    width: 67;
+    vertical-align: middle;
+    background-image: url("./images/snare.png");
+}
+
+#test6 {
+    vertical-align: middle;
+    background-image: url("./images/tom1.png");
+}
+
+#test7 {
+    vertical-align: middle;
+    background-image: url("./images/tom2.png")
+}
+
+#test8 {
+    vertical-align: middle;
+}
+
+#test9 {
+    vertical-align: middle;
+}
